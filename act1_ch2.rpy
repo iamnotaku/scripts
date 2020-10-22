@@ -2860,13 +2860,13 @@ label act1_ch2:
     "Mentre ci uniamo agli altri, posso a vedere Kotonoha seduta alla cattedra parlare alle altre ragazze."
     "Sono sorpreso di come Kotonoha stia bene con tutti qui."
     mc "Siamo tornati."
-    "Si girano tutti a guardarmi. O piuttosto Monika, non ne sono molto sicuro però."
+    "Tutti si girano a guardarmi. O piuttosto Monika, non ne sono molto sicuro però."
     "Kotonoha si sposta dalla cattedra prendendo posto in uno dei banchi nella classe, permettencdoci di prendere il controllo."
     if renpy.random.randint(0, 3) == 0:
       $ renpy.sound.play(audio.notif)
       $ renpy.notify("SGVyZSdzIHdoZXJlIHRoZSBlbmQgYmVnaW5zIGZyb20u==")
     "Bene...E' il momento giusto."
-    "Avend Monika in piedi di fianco a me, metto una mano sulla sua spalla. Poi inizia a parlare."
+    "Avendo Monika in piedi di fianco a me, metto una mano sulla sua spalla. Poi inizia a parlare."
     $ renpy.music.play(audio.late, fadein=2.0, tight=True)
     $ audio.late = "<loop 0>eheart-music/Too Late.ogg"
     show monika 1m at t11 zorder 1
