@@ -2870,31 +2870,31 @@ label act1_ch2:
     $ renpy.music.play(audio.late, fadein=2.0, tight=True)
     $ audio.late = "<loop 0>eheart-music/Too Late.ogg"
     show monika 1m at t11 zorder 1
-    m "Well..."
-    m 4n "Y-{w=0.5} you probably all recall everything that happened before and you're all kind of confused, but..."
-    m 2o "Today I want to say... That I really feel terrible for everything that happened before, I know I made some horrible mistakes."
-    m "I really regret everything I've done... For everything I made you go through... For being so selfish..."
-    "Kotonoha stands up from her chair, she whispers something to Monika. I assume it's the same thing she told me. Anyway, Monika just nods and speaks up again."
-    m 3o "I want to thank [player], because he's helping me make this possible. He's being very understanding even knowing everything I did."
-    m "Kotonoha has helped me a lot as well... I met her thanks to [player], and she's willing to help me."
-    m 4o "I've been pursuing something I know I can't reach, and that {i}someone{/i} gave me this chance as well..."
-    m 2q "I'm really sorry everyone, and if you all give me a second chance I swear I'm not gonna commit the same mistakes I did before."
+    m "Allora..."
+    m 4n "P-{w=0.5} probabilmente tutti voi ricordate quello che è successo prima e siete tutti un po' confusi, ma..."
+    m 2o "Oggi voglio dirvi... Che mi dispiace davvero per tutto quello che è successo prima, so di aver fatto delle cose orribili."
+    m "Mi pento davvero di tutto quello che ho fatto... Per tutto quello che vi ho fatto passare... Per essere stata così egoista..."
+    "Kotonoha si alza dalla sua sedia, e sussurra qualcosa a Monika. Suppongo che sia la stessa cosa cosa che ha detto a me. In ogni caso, Monika annuisce e ricomincia a parlare."
+    m 3o "Voglio ringraziare [player], perchè mi ha aiutato a rendere possibile questo. E' stato veramente comprensivo anche sapendo tutto quello che ho fatto."
+    m "Kotonoha anche mi ha aiutata parecchio... L'ho incontrata grazie a [player], e si è offerta di aiutarmi."
+    m 4o "Ho inseguito qualcosa che sapevo che non potevo raggiungere, e che {i}qualcuno{/i} mi abbia anche dato questa possibilità..."
+    m 2q "Mi dispiace davvero ragazzi, e se mi darete una seconda occasione giuro che non commetterò più gli stessi errori che ho fatto prima."
     show monika 2q at t21 zorder 1
     show natsuki 1e at t22 zorder 2 
-    n "Well well well, are you finished already? May we speak our minds now?"
-    "Natsuki stands up from her chair staring at Monika. Monika has a concerned expression on her face as she looks at Natsuki."
-    m 2o "Well, yeah..."
-    n 2e "Why should we trust you to begin with?"
-    n "If you really feel thaaaaat \"bad\", why did you do that to begin with?"
+    n "Bene bene bene, hai finito? Possiamo parlare liberamente ora?"
+    "Natsuki si alza dalla sedia fissando Monika. Monika ha uno sguardo preoccupato come guarda verso Natsuki."
+    m 2o "Beh, certo..."
+    n 2e "Perchè dovremmo crederti tanto per cominciare?"
+    n "Se stai davvero cosìììììì \"male\", perchè lo hai fatto tanto per cominciare?"
     show monika 2o at t31 zorder 1
     show natsuki 2e at t32 zorder 2 
     show yuri 3o at t33 zorder 3
-    y "A-{w=0.5}agreed."
+    y "C-{w=0.5}concordo."
     n 2h "Sayori?"
     s "..."
-    "Kotonoha is beside me watching this argument and listening to how they speak their minds about this situation. But Mio..."
-    "Mio is in her seat having no idea about what's happening here."
-    "Concerned, I turn to look at Kotonoha."
+    "Kotonoha è di fianco a me guardando e ascoltando come parlano liberamente riguardo a questa situazione. Ma Mio..."
+    "Mio è seduta al suo posto senza avere idea di quello che succede qui."
+    "Preoccupato, mi volto verso Kotonoha."
     show monika at thide
     hide monika
     show natsuki at thide
@@ -2904,49 +2904,49 @@ label act1_ch2:
     show kotonoha 4b at t11 zorder 1
     mc "{i}Kotonoha?{/i}"
     kt "{i}Hm?{/i}"
-    mc "{i}Could you take Mio elsewhere please? I'm gonna deal with this. As soon as everything finishes, I'll phone you.{/i}"
+    mc "{i}Puoi portare Mio altrove per favore? Gestirò io qui le cose. Quando sarà tutto finito, ti chiamerò.{/i}"
     kt "{i}O-okay [player]...{/i}"
     show kotonoha at thide
     hide kotonoha
-    "With that, Kotonoha goes to Mio's desk indicating to her that they have to leave."
+    "Con questo, Kotonoha va al banco di Mio dicendole che dovevano uscire."
     show monika 2o at l41 zorder 1
     show natsuki 2e at l42 zorder 2 
     show yuri 3o at l43 zorder 3
     show sayori 1f at l44 zorder 4
-    "Once they're out of the clubroom, I focus on the girls again."
-    s 2h "Agreed."
-    n 1g "You see? {w=0.5}No one trusts you! So, get o--"
+    "Una volta che sono fuori dalla stanza del club, mi concentro sulle ragazze di nuovo."
+    s 2h "Concordo."
+    n 1g "Vedi? {w=0.5}Nessuno ti crede! Quindi, vatt--"
     play music t9 fadein 2.0
-    s 3l "Wait! While I don't believe Monika actually regrets everything she did, I can't say she doesn't feel bad."
-    y 3j "I concur with Sayori as well."
-    n 2e "What?! Oh, come on!"
-    n "Did you really believe that fairy tale [player] told you?!"
+    s 3l "Aspetta! Nonostante non creda a Monika davvero si pente per quello che ha fatto, non posso dire che non si senta male."
+    y 3j "Concordo anche con Sayori."
+    n 2e "Cosa?! Oh, ma dai!"
+    n "Davvero credete a quella favola che ti ha detto [player]?!"
     $ s_name = "Sayo & Yuri"
     s "No."
     $ s_name = "Sayori"
-    y 2h "Nonetheless, we can't say Monika isn't feeling bad at all."
-    s 1k "That's right... {w=0.5}If Monika tried to at least talk with Yuri, I'd say she really does feel bad actually."
-    s "We have to be antipathetic."
-    y 1l "Empathetic, Sayori."
-    s "That!"
-    s 1g "I kinda get how Monika was feeling though... When I realized what this world is..."
-    s "I almost killed my friends too..."
-    s 2k "So... I really do understand how Monika was feeling! Even so, that doesn't justify the fact that she did mean things to us."
-    y "As Sayori said: Monika did try explaining her situation to me, So I do trust she's feeling bad as well."
-    y "That doesn't mean I believe she's actually feeling regretful of her actions though."
+    y 2h "Tuttavia, non possiamo dire che Monika non si senta male per niente."
+    s 1k "E' vero... {w=0.5}Se Monika ha provato almeno a parlare con Yuri, potrei dire che si senta davvero male in realtà."
+    s "Dovremmo essere antipatici."
+    y 1l "Empatici, Sayori."
+    s "Quello!"
+    s 1g "Più o meno ho capito come si è sentita Monika però... Quando ho realizzato cos'è questo mondo realmente..."
+    s "Ho quasi ucciso anche io i miei amici..."
+    s 2k "Quindi... Davvero capisco come Monika si è sentita! Nonostante ciò, però, questo non giustifica il fatto che ci abbia fatto cose orribili."
+    y "Come ha detto Sayori: Monika ha provato a spiegarmi la situazione, quindi credo che davvero si senta male."
+    y "Questo non vuol dire che credo che si senta davvero addolorata per le sue azioni però."
     n 3x "Ugh..."
-    n 3w "I can't believe how credulous you girls are."
-    m 2o "Natsuki, {w=0.5}I--{w=0.5}"
-    n 3e "No Monika, you're not gonna trick me anytime soon. Unless you can prove your regret to me, I'm not gonna trust you ever again!"
-    mc "Natsuki, just--{w=0.5}"
-    n "Blah blah blah. That's all I hear from you, [player]."
-    "Sitting back in her seat, Sayori and Yuri walk towards us."
+    n 3w "Non posso credere a quanto siate ingenue, ragazze."
+    m 2o "Natsuki, {w=0.5}Io--{w=0.5}"
+    n 3e "No Monika, non mi ingannerai mai. Finché non mi proverai il tuo rimorso, non mi fiderò mai più di te!"
+    mc "Natsuki, solo--{w=0.5}"
+    n "Blah blah blah. E' tutto quello che sento da te, [player]."
+    "Sedute dietro ai loro posti, Sayori e Yuri vengono verso di noi."
     show natsuki at thide
     hide natsuki
     show monika 2o at t31 zorder 1
     show sayori 2k at t32 zorder 2
     show yuri 1l at t33 zorder 3
-    $ s_name = "Sayo y Yuri"
+    $ s_name = "Sayo e Yuri"
     show sayori 2h at t32 zorder 1
     show yuri 1h at t33 zorder 2
     s "Monika..."
