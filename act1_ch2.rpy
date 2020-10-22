@@ -2952,51 +2952,51 @@ label act1_ch2:
     s "Monika..."
     $ s_name = "Sayori"
     m 1f "Hm?"
-    s "As we said, while we do understand you, it doesn't mean we believe that you're feeling this remorseful this quickly."
-    s "But even so... We'll be here."
-    y 2h "Affirmative."
-    y "Just that."
-    "With that, Sayori and Yuri return to their respective seats."
+    s "Come abbiamo detto, nonostante ti abbiamo capito, questo non vuol dire che crediamo tu ti senta così addolorata così velocemente."
+    s "Ma nonostante questo... Noi saremo qui."
+    y 2h "Affermativo."
+    y "Solo quello."
+    "Con questo, Sayori e Yuri ritornano ai loro rispettivi posti."
     show yuri at rhide
     hide yuri
     show sayori at rhide
     hide sayori
     show monika 1q at t11 zorder 1
     stop music fadeout 2.0
-    "Well... That could've gone worse, I guess."
-    "I turn to look at Monika, who now seems to have calmed down."
+    "Beh... Poteva andare molto peggio, credo."
+    "Mi giro verso Monika, che sembra finalmente essersi calmata."
     mc "Monika?"
-    m 2m "Y-{w=0.5}Yes?"
-    mc "Do you feel any better now?"
-    m "Yeah... {w=0.5}You guys were right, [player]-"
+    m 2m "S-{w=0.5}Sì?"
+    mc "Ti senti meglio ora?"
+    m "Sì... {w=0.5}Avevate ragione, [player]-"
     if persistent.kt_choice1 == 0:
-      m "Yuri did understand after all."
+      m "Yuri ha capito dopotutto."
     elif persistent.kt_choice1 == 0:
-      m "Yuri and Sayori did understand, just like you said..."
+      m "Yuri e Sayori hanno capito, proprio come avevi detto..."
     else:
-      m "Despite Natsuki being kind of rude, I'd say everything went well."
-    mc "Yeah. Just a moment, I'm gonna call Kotonoha."
+      m "Nonostante Natsuki sia stata un po' scortese, posso dire che è andato tutto bene."
+    mc "Già. Solo un attimo, vado a chiamare Kotonoha."
     m 1m "Mhm~"
-    "I take my phone out and dial Kotonoha's number."
+    "Prendo il mio telefono e compongo il numero di Kotonoha."
     window hide(None)
     window auto
     pause 2.0
     kt "{i}[player]?{/i}"
-    mc "Yo Kotonoha, everything's done over here. Time to come back."
-    kt "{i}How did it go?{/i}"
-    mc "Well, it could have been worse."
-    kt "{i}Huh? What's that supposed to mean?{/i}"
-    mc "Sayori and Yuri understand Monika, although they're not convinced of Monika's remorse."
-    kt "{i}What about Natsuki?{/i}"
-    mc "Tonight I'm paying a visit to your hotel so we can talk."
-    kt "{i}O-{w=0.5}oh... {w=0.5}Are you sure?{/i}"
-    mc "Yeah, why not?"
-    kt "{i}N-{w=0.5}no! I didn't mean it like that, I just...{/i}"
-    mc "Okay... Come here already."
+    mc "Ehi Kotonoha, abbiamo finito qui. Puoi venire."
+    kt "{i}Com'è andata?{/i}"
+    mc "Beh, poteva andare peggio."
+    kt "{i}Huh? Cosa vorrebbe dire?{/i}"
+    mc "Sayori e Yuri hanno capito Monika, però non sono convinte del rimorso di Monika."
+    kt "{i}E Natsuki?{/i}"
+    mc "Stanotte verrò al tuo hotel così potremo parlare."
+    kt "{i}O-{w=0.5}oh... {w=0.5}Sei sicuro?{/i}"
+    mc "Certo, perchè no?"
+    kt "{i}N-{w=0.5}no! Non intendevo in quel senso, solo... {/i}"
+    mc "Okay... Vieni qua ora."
     kt "{i}Mhm~{/i}"
-    "Kotonoha hangs up first."
-    "I can't help but wonder what Kotonoha is thinking about..."
-    "Ahhh well, I think I have to finish today's meeting."
+    "Kotonoha aggancia per prima."
+    "Non posso fare a meno di immaginare a cosa Kotonoha stesse pensando..."
+    "Ahhh bene, penso di aver fatto la mia parte oggi."
     scene black
     with wipeleft
     scene bg club_day
