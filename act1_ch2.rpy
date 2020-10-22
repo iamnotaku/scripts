@@ -2852,21 +2852,21 @@ label act1_ch2:
     mc "Ah beh, dovremmo entrare e sistemare tutto."
     stop music fadeout 2.0
     m 1k "Mhm~"
-    "With that, we both get inside the classroom."
+    "Con questo, entriamo entrambi in classe."
     scene black
     with wipeleft
     scene bg club_day
     with wipeleft
-    "While joining the others, I can see Kotonoha sitting at the teacher's desk talking to the girls."
-    "I'm surprised how well Kotonoha has gotten along with everyone here."
-    mc "We're back."
-    "They all turn to look at me. Or rather Monika, I'm not really sure though."
-    "Kotonoha stands up from the teacher's desk taking a seat at one of the desks in the classroom, allowing us to take control."
+    "Mentre ci uniamo agli altri, posso a vedere Kotonoha seduta alla cattedra parlare alle altre ragazze."
+    "Sono sorpreso di come Kotonoha stia bene con tutti qui."
+    mc "Siamo tornati."
+    "Si girano tutti a guardarmi. O piuttosto Monika, non ne sono molto sicuro però."
+    "Kotonoha si sposta dalla cattedra prendendo posto in uno dei banchi nella classe, permettencdoci di prendere il controllo."
     if renpy.random.randint(0, 3) == 0:
       $ renpy.sound.play(audio.notif)
       $ renpy.notify("SGVyZSdzIHdoZXJlIHRoZSBlbmQgYmVnaW5zIGZyb20u==")
-    "Alright...Now is the time."
-    "Having Monika stand beside me, I place my hand on her shoulder. She then starts speaking."
+    "Bene...E' il momento giusto."
+    "Avend Monika in piedi di fianco a me, metto una mano sulla sua spalla. Poi inizia a parlare."
     $ renpy.music.play(audio.late, fadein=2.0, tight=True)
     $ audio.late = "<loop 0>eheart-music/Too Late.ogg"
     show monika 1m at t11 zorder 1
