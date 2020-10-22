@@ -2454,50 +2454,50 @@ label act1_ch2:
     show natsuki 2e at l33 zorder 3
     n "Cosa?"
     mc "Dov'è Kotonoha?"
-    n 2b "She's in a classroom just staring at nothing. Now move!!!"
+    n 2b "E' solo in una classe a fissare il niente. Ora andiamo!!!"
     show natsuki at thide
     hide natsuki
     show yuri 1g at t22 zorder 1
     show sayori 1k at t21 zorder 2
-    "Before I could move, Natsuki pushes me out of the way and opens the clubroom door. Saying nothing to Mio, she sits at a desk."
-    "Agh! I bet Kotonoha is feeling bad again because of me!"
-    "I need to find her."
+    "Prima di potermi muovere, Natsuki si fa spazio scansandomi di lato e apre la porta della stanza del club. Senza dire niente a Mio, si siede ad un banco."
+    "Agh! Scommetto che Kotonoha si sente male per colpa mia!"
+    "Devo trovarla."
     stop music fadeout 2.0
-    mc "Hey Sayori, I forgot a notebook in our classroom, I'm gonna go get it."
-    s 2g "Oh, would you like me to come with you?"
-    mc "No, {w=0.5}I'd rather go myself. I... {w=0.5}kind of gotta go to the bathroom too."
+    mc "Hey Sayori, ho dimenticato un quaderno nella nostra classe, vado a prenderlo."
+    s 2g "Oh, vorresti che venissi con te?"
+    mc "No, {w=0.5}Preferirei andare da solo. Io... {w=0.5}Dovrei anche andare in bagno."
     s 2k "Okay, [player]."
-    mc "Meanwhile, you girls go inside and give the new member a warm welcome."
+    mc "Nel mentre, voi ragazze date un caloroso benvenuto ai nostri nuovi membri."
     $ s_name = "Yuri & Sayo"
     s "Okay [player]."
     $ s_name = "Sayori"
-    s 2l "Let's get inside Yuri~"
-    y 3g "Y-{w=0.5}Yes. Let's go."
+    s 2l "Andiamo dentro Yuri~"
+    y 3g "S-{w=0.5}Sì. Andiamo."
     show sayori at lhide
     hide sayori
     show yuri at lhide
     hide yuri
-    "Once Yuri and Sayori get inside the classroom, I make my way to Natsuki and Kotonoha's classroom."
-    "Geez... I don't even know how today's meeting will turn out... Natsuki is my newest concern right now."
-    "Come to think of it, if Natsuki is being this condescending, will we be able to do anything?"
-    "Maybe as time goes on she might accept Monika back and then we can all be happy again."
-    "As for Kotonoha... I'm just being a jerk towards her again..."
-    "Now I regret everything I told to Natsuki."
-    "Pushing those thoughts out of my mind, I start walking to Natsuki's classroom."
+    "Una volta che Yuri e Sayori sono entrate in classe, mi faccio strada verso la classe di Natsuki e Kotonoha."
+    "Uff... Non so neanche come andrà la riunione di oggi... Natsuki è la mia più grande preoccupazione ora come ora."
+    "Adesso che ci penso, se Natsuki è stata così altezzosa, saremo in grado di fare qualcosa?"
+    "Forse col tempo potrebbe accettare che Monika sia ritornata e poi potremo tutti essere felici di nuovo."
+    "Come per Kotonoha... Sono stato un'idiota nei suoi confronti di nuovo..."
+    "Ora rimpiango tutto ciò che ho detto a Natsuki."
+    "Scacciando questi pensieri dalla mia testa, inizio a camminare verso la classe di Natsuki."
     scene black
     with wipeleft
     scene bg corridor
     with wipeleft
-    "I've been walking in this corridor for quite a while, thinking about what I am gonna say to Kotonoha."
-    "God... I don't even know how she is gonna react when she sees that I came to look for her."
-    "I have to apologize to her again... {w=0.5}Well done [player], you hurt her again."
-    "Are you happy now?"
-    "I've searched for her in every single classroom in this hallway. Maybe she hid or something, but she doesn't know that I'm looking for her."
+    "Sto camminando in questo corridoio per un po', pensando a cosa potrei dire a Kotonoha."
+    "Dio... Non so neanche come reagirà quando vedrà che sono venuto a carcarla."
+    "Devo scusarmi di nuovo con lei... {w=0.5}Ben fatto [player], l'hai ferita di nuovo."
+    "Sei felice ora?"
+    "L'ho cercata in ogni singola classe in questo corridoio. Forse si è nascosta o qualcosa del genere, ma non sa che la sto cercando."
     window hide(None)
     window auto
     pause 2.0
     "Hm..."
-    "Aha! There you are Kotonoha!"
+    "Aha! Eccoti qua Kotonoha!"
     play sound door
     window hide(None)
     window auto
@@ -2505,48 +2505,48 @@ label act1_ch2:
     mc "Kotonoha?"
     kt "Huh? [player]?"
     play music t9 fadein 2.0
-    mc "Yeah, it's me. {w=0.5}Come on, it's club time, {w=0.5}let's get--"
+    mc "Sì, sono io. {w=0.5}Andiamo, dobbiamo andare al club, {w=0.5}forza s--"
     $ currentpos = get_pos()
     $ audio.t9 = "<from " + str(currentpos) + " loop 3.172>bgm/9.ogg"
-    kt "I don't want to go."
+    kt "Non voglio andare."
     mc "..."
-    mc "Why?"
-    kt "You don't care! Leave me alone!"
+    mc "Perchè?"
+    kt "Non t'importa! Lasciami in pace!"
     mc "..."
-    mc "May I come in?"
-    kt "No! I said leave me alone!"
+    mc "Posso entrare?"
+    kt "No! Ti ho detto di lasciarmi in pace!"
     mc "Kotonoha..."
     window hide(None)
     window auto 
     pause 3.0
     mc "Kotonoha?"
-    kt "Just leave me alone!"
-    mc "I'm not doing that."
-    kt "If you hate me this much then what are you doing here?! Go away!"
-    kt "I'll go to the club once--"
+    kt "Lasciami in pace!"
+    mc "Non lo farò."
+    kt "Se mi odi così tanto allora cosa ci fai qui?! Vattene!"
+    kt "Andrò al club una volta--"
     kt "{i}*sniff*{/i}"
     "..."
-    kt "I... I just wanna be alone."
-    "Is Kotonoha crying?"
-    "Oh no... I did it again."
-    "The only thing I wanted was to try to avoid problems and I ended up causing even more!"
-    "I need to try a little bit harder for Kotonoha..."
-    "Not because I'm useless without her, but because I actually care about her..."
-    "--because I do consider her a good friend of mine."
-    "I let myself in the classroom."
+    kt "Io... Io voglio solo stare da sola."
+    "Kotonoha sta piangendo?"
+    "Oh no... L'ho fatto di nuovo."
+    "L'unica cosa che volevo era cercare di evitare problemi e invece ho finito col crearne più di prima!"
+    "Devo impegnarmi un po' più duramente per Kotonoha..."
+    "Non perchè io sia inutile senza di lei, ma perchè in realtà mi importa di lei..."
+    "--perchè la considero una mia buona amica."
+    "Entro in classeI let myself in the classroom."
     scene black
     with wipeleft
     scene bg kt_classroom
     with wipeleft
     show kotonoha 1o at t11 zorder 1
-    kt 1p "I told you to leave [player]!"
-    mc "I told you I won't do that."
-    "Where did Kotonoha get that uniform from? Did someone tell her that she can find her uniform at the lockers?"
-    "This is no time for stupid questions [player]! Kotonoha is crying in front of you!"
-    kt 1p "Why do you hate me?! What did I do to you to make you hate me this much?!"
+    kt 1p "Ti ho detto di andare [player]!"
+    mc "Ti ho detto che non lo farò."
+    "Da dove ha preso quell'uniforme Kotonoha? Qualcuno le ha detto che poteva trovarla nel suo armadietto?"
+    "Non è il momento per domande stupide [player]! Kotonoha sta piangendo di fronte a te!"
+    kt 1p "Perchè mi odi?! Cos'ho fatto per farmi odiare così tanto da te?!"
     $ gtext = glitchtext(35)
     $ style.say_dialogue = style.edited
-    kt 1u2 "I really wish [persistent.playername_b] didn't bring m[gtext]{w=0.5}"
+    kt 1u2 "Desidero davvero che [persistent.playername_b] non mi avesse por[gtext]{w=0.5}"
     stop music
     window hide(None)
     window auto
@@ -2563,113 +2563,113 @@ label act1_ch2:
     scene mc_kt_cg
     with dissolve_scene_full
     $ renpy.music.play(audio.t9, channel="music", fadein=2.0, tight=True)
-    "Kotonoha falls down on the floor, I kneel down and hold her."
-    mc "Kotonoha... I'm so sorry!"
-    mc "I'm truly sorry! I don't want to lose another friend again... I don't hate you Kotonoha, I really like you!"
-    mc "Why would you ever think that I hate you? I... really care about you Kotonoha."
-    kt "Stop lying to me!"
-    kt "You... You don't really care about me."
-    kt "You just make me cry... You're doing nothing but ruining my plans."
+    "Kotonoha cade a terra, io mi inginocchio e la afferro."
+    mc "Kotonoha... Mi dispiace!"
+    mc "Mi dispiace davvero! Non voglio perdere un'altra amica di nuovo... Non ti odio Kotonoha, mi piaci davvero!"
+    mc "Perchè pensi che ti abbia odiato? Mi... importa davvero di te Kotonoha."
+    kt "Smetti di mentirmi!"
+    kt "Non... non ti importa di me."
+    kt "Mi stai facendo piangere... Non fai altro che rovinare i miei piani."
     mc "..."
-    mc "Kotonoha, {w=0.5}I--"
-    kt "Shut up! That's... That's enough already."
-    kt "I just want you to tell me why you hate me this much."
-    mc "Kotonoha, I said I don't--"
-    kt "Of course you do!"
-    "Kotonoha starts punching my chest as she tries to get me to let go of her. She's not strong enough though and she can barely do anything."
-    "I have to say she has very soft hands, her fist is barely inflicting any pain on my chest. I manage to grab her wrist and I hold her hand."
+    mc "Kotonoha, {w=0.5}Io--"
+    kt "Zitto! Basta... Basta."
+    kt "Voglio solo che tu mi dica perchè mi odi così tanto."
+    mc "Kotonoha, ti ho detto che non--"
+    kt "E' ovvio che mi odi!"
+    "Kotonoha inizia a tirarmi pugni sul petto provando a liberarsi. Però non è abbastanza forte e non può far quasi niente."
+    "Posso dire che ha delle mani veramente morbide, il suo pugno infligge poco dolore al mio petto. Riesco ad afferrarle il polso e a tenerle la mano."
     kt "Ah?!"
-    mc "Kotonoha... I really feel bad for how I've been behaving towards you."
-    mc "I don't hate you. I really like you."
+    mc "Kotonoha... Mi sento davvero male per come mi sono comportato nei tuoi confronti."
+    mc "Non ti odio. Mi piaci davvero."
     if persistent.kt_choice1 == 0:
-      mc "You're a really brave and intelligent girl."
-      mc "After all you didn't make any mistakes with Yuri. She's now at the clubroom waiting for us."
-      mc "Yuri decided to listen to what Monika had to say, and she did come to the meeting. Look, Please don't say that I hate you. Don't ever do that again."
+      mc "Sei davvero un aragazza coraggiosa ed intelligente."
+      mc "Dopotutto non hai fatto alcun errore con Yuri. Ora è al club che ci sta aspettando."
+      mc "Yuri ha deciso di ascoltare cos'ha da dire Monika, ed è venuta alla riunione. Senti, per favore non dire che ti odio. Non farlo mai più."
     elif persistent.kt_choice1 == 1:
       window hide(None)
       window auto
       pause 2.0
-      "Kotonoha finally stops struggling in my arms. I then continue speaking."
-      mc "You wanna know something? You're smarter than I ever will be. You're ready for everything that's coming our way."
-      mc "What did I do? I just talked to Sayori and Yuri, and now they're waiting for us at the clubroom."
-      mc "Don't ever say that I hate you... I really consider you a really good friend, Kotonoha."
+      "Kotonoha finalmente smette di agitarsi tra le mie braccia. Quindi continuo a parlare."
+      mc "Vuoi sapere una cosa? Sei più intelligente di quanto io potrei mai esserlo. Sei pronta per tutto quello che ci verrà incontro."        #You're ready for everything that's coming our way."
+      mc "E io invece cos'ho fatto? Ho solo parlato con Sayori e Yuri, e ora ci stanno aspettando al club."
+      mc "Non dir più che ti odio... Ti considero davvero una buona amica, Kotonoha."
     else:
-      mc "Everything's coming along well, and I won't let anyone suffer. Not even you."
-      mc "Not just that, Monika is also worried about you! I am too."
-      mc "I'm sorry for treating you this badly... I really like you, Kotonoha."
+      mc "Tutto sta andando bene, e non lascerò che nessun altro soffra. Neanche tu."
+      mc "Non solo questo, anche Monika è preoccupata per te! E lo sono anche io."
+      mc "Mi dispiace di averti trattata così male... Mi piaci davvero, Kotonoha."
     kt "..."
-    kt "B-{w=0.5}but if you don't hate me... {w=0.5}Why did you say that to Natsuki?"
-    mc "We can't be lying to anyone at all. I don't think lying will get us where we want to be."
-    mc "Lies are always found out no matter how well they are disguised."
+    kt "M-{w=0.5}ma se non mi odi... {w=0.5}perchè hai detto quella cosa a Natsuki?"
+    mc "Non possiamo più mentire a nessuno. Non penso che mentire ci porterà al risultato che vogliamo."
+    mc "Le bugie vengono sempre scoperte non importa quanto bene sono celate."
     kt "[player]..."
     mc "Uh--"
-    "After Kotonoha says my name, she starts hugging me as hard as she can."
-    "It's kind of weird because I can feel her... Um... \"posture\" and she is way too close to my chest."
-    "Even so, I let it go and let her continue to hug me. I wouldn't want to ruin this moment."
-    "Kotonoha rubs her face on my chest while I hear her uncontrollable weeping. She then finally speaks up."
+    "Dopo che Kotonoha ha detto il mio nome, inizia ad abbracciarmi più forte che può."
+    "E' un po' strano perchè riesco a sentire il suo... Um... il suo seno ed è molto più vicina al petto."               #It's kind of weird because I can feel her... Um... \"posture\" and she is way too close to my chest."
+    "Ciò nonostante, mi lascio andare e lascio che mi continui ad abbracciare. Non vorrei rovinare questo momento."
+    "Kotonoha strofina la sua faccia sul mio petto mentre sento il suo incontrollabile piagnucolio. Poi alla fine inizia a parlare."
     kt "..."
     kt "[player]..."
-    mc "Yeah?"
+    mc "Sì?"
     if persistent.kt_choice1 == 2:
-      kt "D-{w=0.5}do you... {w=0.5}Do you really like me?"
+      kt "I-{w=0.5}io ti... {w=0.5}Piaccio veramente?"
     else:
-      kt "D-{w=0.5}do you... {w=0.5}Do you really consider me a friend of yours? Do you really appreciate me?"
-    mc "Of course I do."
-    "I tried to let go of her, but she hugs me even more firmly."
-    kt "J-{w=0.5}Just a little bit more, [player]."
+      kt "D-{w=0.5}Davvero... {w=0.5}Davvero mi consideri una tua amica? Davvero mi apprezzi?"
+    mc "Ovvio."
+    "Provo a lasciarla andare, ma lei mi abbraccia ancora più forte."
+    kt "S-{w=0.5}solo un altro po', [player]."
     mc "Oh... Okay."
     window hide(None)
     window auto
     pause 2.0
-    "A good 4 minutes pass, and Kotonoha lets go of me."
+    "Sono passati 4 minuti buoni, e Kotonoha mi lascia andare."
     scene black
     with wipeleft
     scene bg kt_classroom
     with dissolve_scene_full
     show kotonoha 4d at t11 zorder 1
     kt "Hey [player]..."
-    mc "Yeah?"
+    mc "Sì?"
     stop music fadeout 2.0
-    kt 5s2 "W-{w=0.5}we should get going to the classroom already."
-    mc "Oh! Yeah, let's go."
+    kt 5s2 "D-{w=0.5}dovremmo andare in classe ora."
+    mc "Oh! Già, andiamo."
     kt 3j "Uhuhu~"
-    "Kotonoha takes her purse from her desk and leaves the classroom while laughing."
+    "Kotonoha prende il suo borsello dal suo banco ed esce dalla classe ridacchiando."
     show kotonoha at rhide
     hide kotonoha
     mc "Ahhhh..."
-    kt "Come on [player], they're probably wondering where we are~"
-    mc "Yeah! I'm going already!"
-    "Before leaving, I make sure everything's alright before closing the door."
+    kt "Dai su [player], porbabilmente si starannno chiedendo dove siamo~"
+    mc "Sì! Sto andando!"
+    "Prima di andare, mi assicuro che sia tutto a posto prima di chiudere la porta."
     scene black
     with wipeleft
     scene bg corridor
     with wipeleft
-    "While we are walking to the classroom, I can see Kotonoha staring at the floor while she holds her purse with both hands."
-    "I think she's kind of blushing too."
-    "I don't know what's happening or what she is thinking about, but she looks really happy right now."
-    "What would happen if I ask her?"
+    "Mentre camminiamo per andare in classe, vedo Kotonoha fissare il terreno mentre stringe il borsello con entrambe le mani."
+    "Penso stia anche un po' arrossendo."
+    "Non so cosa stia succedendo o cosa stia pensando, ma sembra davvero felice in questo momento."
+    "Cosa succederebbe se glielo chiedessi?"
     window hide(None)
     window auto
     pause 2.0
     mc "Hey, Kotonoha?"
     show kotonoha 1j at t11 zorder 1
-    kt "Yeah?"
-    mc "Are you okay?"
-    kt "Y-{w=0.5}yeah. Why?"
-    mc "Well, you're blushing."
-    kt 4t "I-{w=0.5}I'm fine!"
+    kt "Sì?"
+    mc "Stai bene?"
+    kt "S-{w=0.5}sì. Perchè?"
+    mc "Beh, stai arrossendo."
+    kt 4t "S-{w=0.5}Sto bene!"
     mc "Heh."
     show kotonoha at thide
     hide kotonoha
-    "Kotonoha looking away, stares at the floor and gets even closer to me. Her face turning a deeper shade of red."
-    "Well... I have to say that it's kind of cute, but I don't want her to think that I want to be her boyfriend or anything."
-    "I just like her as a friend, but I also wouldn't want her to die just like what happened to Sayori..."
-    "I think it's better if I don't tell her that. At least for now she's very happy, and I don't want to ruin this happy moment for her."
-    mc "Over here, Kotonoha."
+    "Kotonoha sposta lo sguardo altrove, fissando il pavimento e avvicinandosi ancora di più a me. La sua faccia prende un intensa tonalità di rosso."
+    "Beh... Devo dire che è carina, ma non voglio che pensi che voglia essere il suo ragazzo o altro."
+    "Mi piace solo come amica, ma non vorrei neanche che morisse come è successo a Sayori..."
+    "Penso sia meglio che non glielo dica. Almeno per ora è davvero felice, e non voglio rovinare questo momento felice per lei."
+    mc "Di qua, Kotonoha."
     show kotonoha 7c at t11 zorder 1
-    "I point at the door."
+    "Indico la porta."
     kt 7c "Mhm~"
-    "I open the door letting Kotonoha in."
+    "Apro la porta lasciando entrare Kotonoha."
     scene black
     with wipeleft
     scene bg club_day
@@ -2677,15 +2677,15 @@ label act1_ch2:
     play music late fadein 2.0
     $ currentpos = get_pos()
     $ audio.late = "<from " + str(currentpos) + " loop 0>eheart-music/Too Late.ogg"
-    "Once we get in the clubroom, I see Monika sitting at the teacher's desk."
-    "Sayori's in the closet, Yuri at her usual desk, Mio looks kind of scared, And Natsuki is in the very front just staring at Monika."
-    "I think I have to ask Sayori what happened while I wasn't here."
-    "I turn to look at Kotonoha, she also turns to see me."
+    "Una volta all'interno del club, vedo Monika seduta alla cattedra."
+    "Sayori è nel ripostiglio, Yuri al suo solito banco, Mio sembra un po' spaventata, e Natsuki è proprio davanti che sta fissando Monika."
+    "Penso che dovrei chiedere a Sayori cos'è successo mentre non c'ero."
+    "Mi giro verso Kotonoha, e anche lei si gira per guardarmi."
     show kotonoha 1e at t11 zorder 1
-    mc "Kotonoha, I gotta talk to Sayori. You may come if you want to."
-    kt 1f "N-{w=0.5}no, I prefer to wait for you."
-    mc "Alright, then just a moment."
-    "With that, I make my way to Sayori."
+    mc "Kotonoha, devo parlare a Sayori. Puoi venire anche tu se vuoi."
+    kt 1f "N-{w=0.5}no, preferisco aspettarti qui."
+    mc "Bene, allora aspetta un momento."
+    "Con questo, mi avvicino a Sayori."
     scene black
     with wipeleft
     scene bg closet 
@@ -2693,163 +2693,163 @@ label act1_ch2:
     mc "Hey... Sayori?"
     show sayori 1g at t11 zorder 1
     s "[player]?"
-    s "Who is that girl?"
-    mc "She's the second member. I'm gonna introduce you all to her, I just wanna talk to you."
+    s "Chi è quella ragazza?"
+    mc "E' il secondo membro. Vi presenterò tutte a lei, volevo parlare con te."
     s 1b "Hm?"
-    "I look at Monika and Natsuki."
-    mc "What happened here? Did I miss something?"
-    s 1h "Ehhh... Well, We were talking to Mio, and then Monika arrived. Natsuki sat at that desk she's at..."
-    s "--then Monika greeted everyone, But nobody except Mio greeted her."
-    mc "That's all?"
-    s "Yeah..."
-    mc "I see."
-    mc "Well, let's do this. Come here Sayori."
+    "Guardo verso Natsuki e Monika."
+    mc "Cos'è successo qui? Mi sono perso qualcosa?"
+    s 1h "Ehhh... Beh, stavamo parlando a Mio, poi Monika è arrivata. Natsuki seduta a quel posto l'ha a..."
+    s "--poi Monika ha salutato tutti, ma nessuno apparte Mio l'ha salutata."
+    mc "E' tutto?"
+    s "Sì..."
+    mc "Capisco."
+    mc "Bene, facciamolo. Vieni qua Sayori."
     s "..."
-    s 2k "I prefer not to..."
-    mc "Huh? Why? You were waiting for this all day, weren't you?"
+    s 2k "Preferirei non..."
+    mc "Huh? Perchè? Stavi aspettando questo da tutto il giorno, no?"
     s "..."
-    "Saying nothing else, Sayori goes to her usual desk."
+    "Senza dire altro, Sayori si va a sedere al suo solito posto"
     show sayori at thide
     hide sayori
-    "God... What even happened here?"
-    "I think this situation may depend on Kotonoha and I."
-    "Looking straight ahead, I start walking to the front of the clubroom."
+    "Dio... Cos'altro è successo qui?"
+    "Penso che questa situazione dipenda da me e Kotonoha."
+    "Guardando dritto, mi incammino verso la cattedra."
     scene black
     with wipeleft
     scene bg club_day
     with wipeleft
-    "I can literally feel the bitter aura coming from Sayori, Yuri, and Natsuki towards Monika, So I ask Kotonoha to come with me. She nods and walks to the front of the clubroom."
-    mc "Oookay, everyone?"
-    "Their eyes lock on me, making me feel kind of nervous. No regrets now."
-    "I sigh and start talking."
-    mc "Alright... {w=0.5}Well, today I called you all in regards to everything that happened \"before\"."
-    "Kotonoha leans towards me and she whispers something to me."
+    "Riesco letteralmente a sentire l'aura amara provenire da Sayori, Yuri e Natsuki nei confronti di Monika, quindi chiedo a Kotonoha di venire con me. Lei annuisce e anche lei si incammina verso la cattedra."
+    mc "Oookay, ragazzi?"
+    "I loro occhi fissati su di me, mi fanno sentire un po' nervoso. Niente ripensamenti ora."
+    "Sospiro e inizio a parlare."
+    mc "Bene... {w=0.5}Allora, oggi vi ho chiamato considerando tutto quello che è successo \"prima\"."
+    "Kotonoha si piega verso di me e mi sospira qualcosa."
     show kotonoha 2f at t11 zorder 1:
       alpha 0.48
-    kt "{i}[player], please be careful. That orange-haired girl doesn't know anything about the old world.{/i}"
-    kt "{i}Do you promise?{/i}"
-    mc "{i}Yeah, I promise.{/i}"
+    kt "{i}[player], per favore sta attento. Quella ragazza coi capelli arancioni non sa niente riguardo al vecchio mondo.{/i}"
+    kt "{i}Lo prometti?{/i}"
+    mc "{i}Sì, te lo prometto.{/i}"
     show kotonoha at thide
     hide kotonoha
-    "Having said that, Kotonoha nods and then looks at Mio."
-    mc "Well... Today we're gonna talk about two things. First of all, the new members."
-    mc "Maybe you're wondering who these girls are, and well--"
+    "Detto questo, Kotonoha annuisce e poi guarda Mio."
+    mc "Allora... Oggi parleremo di due cose. Prima di tutt, i nuovi membri."
+    mc "Forse vi starete chiedendo chi sono queste ragazze, ebbene--"
     show natsuki 1b at t11 zorder 1
     n "Mio."
-    mc "Wha--?"
-    mc "Do you know her?"
+    mc "Cos--?"
+    mc "La conosci?"
     n 1g "Hmph."
     show natsuki at thide
     hide natsuki
-    "Ignoring my question, Natsuki looks away."
-    mc "Alright... Mio, please come here."
-    mi "Y-yeah..."
-    "Mio stands from her desk and slowly walks to the front of the room."
+    "Ignorando la mia domanda, Natsuki distoglie lo sguardo."
+    mc "Bene... Mio, prego vieni qui."
+    mi "O-okay..."
+    "Mio si alza dal suo posto e si incammina lentamente verso la cattedra."
     show mio 1k at t11 zorder 1
-    "She then makes a half turn and politely places her hands one above the other."
-    mc "So... Yeah, this is Mio. She's gonna be a new member of our club, so please give her a--"
+    "Poi fa un mezzo giro e gentilmente posa le sue mani una sopra l'altra."
+    mc "Dunque... Sì, questa è Mio. Sarà un nuovo membro del nostro club, quindi ragazzi diamole un--"
     show mio 1j at t21 zorder 1
     show natsuki 2b at t22 zorder 1
-    n "Supposedly you are a member of the music club, aren't you?"
-    mi 2l "Yeah... Well, I sort of left and since [player] invited me to come, I took him up on his invitation."
-    mc "Okay... This is Kotonoha, she's from another school and that's why her accent is kind of different."
+    n "Apparentemente saresti un membro del club di musica, no?"
+    mi 2l "Già... Beh, in un certo senso l'ho lasciato e quando [player] mi ha invitata a venire, io ho accettato il suo invito."
+    mc "Okay... Qesta è Kotonoha, viene da un'altra scuola ed è per questo che il suo accento è un po' diverso."
     show mio 1k at t31 zorder 1
     show natsuki 2b at t32 zorder 1
     show kotonoha 7s at t33 zorder 1
-    kt 7s "Yeah, uhm... I'm from the region of Kansai, Osaka prefecture."
+    kt 7s "Sì, uhm... Vengo dalla regione del Kansai, dalla prefettura di Osaka."
     "..."
-    "Once again no one says anything."
+    "Un'altra volta nessuno dice niente."
     show mio 1k at t41 zorder 1
     show natsuki 2b at t42 zorder 1
     show kotonoha 1s at t43 zorder 1
     show yuri 2q at t44 zorder 1
-    y "W-{w=0.5}welcome, Kotonoha."
+    y "B-{w=0.5}benvenuta, Kotonoha."
     show natsuki at thide
     hide natsuki
     show mio at thide
     hide mio
     show kotonoha 4v1 at t21 zorder 1
     show yuri 2q at t22 zorder 1
-    kt "O-{w=0.5}oh! Thanks, uh..."
-    y 2u "M-{w=0.5}my name is Yuri. Nice to meet you."
-    kt " Oh yeah, I forgot it... {w=0.5}We met at the main yard this morning."
-    y "Y-{w=0.5}yes, I'm sorry for that!"
-    kt 2a "Don't worry, it's okay."
+    kt "O-{w=0.5}oh! Grazie, uh..."
+    y 2u "I-{w=0.5}il mio nome è Yuri. Piacere di conoscerti."
+    kt " Oh già, me lo ero dimenticato... {w=0.5}Ci eravamo incontrati stamattina nel cortile."
+    y "S-{w=0.5}sì, scusami per quello!"
+    kt 2a "Non preoccuparti, è tutto apposto."
     #show kotonoha 4a at t31 zorder 1
     show kotonoha 4a at t31 zorder 2
     show yuri 2s at t32 zorder 1
     show mio 2g at t33 zorder 1
-    y "Welcome as well, Mio."
-    mi 4l "Thank you, Yuri! I hope we can be friends."
-    y 3b "Yes, I hope we can be friends too."
+    y "Benvenuta anche a te, Mio."
+    mi 4l "Grazie, Yuri! Spero che potremo essere amiche."
+    y 3b "Sì, lo spero anche io."
     show kotonoha at thide
     hide kotonoha
     show yuri at thide
     hide yuri
     show mio at thide
     hide mio
-    "I was so distracted watching everyone introduce themselves that I didn't realize Monika isn't here anymore."
+    "Ero così distratto a vedere tutti che si presentavano che non ho realizzato che Monika non è più qui."
     mc "Hey Kotonoha?"
     show kotonoha 1f at t11 zorder 1
-    kt "Yeah?"
-    mc "Where's Monika?"
+    kt "Sì?"
+    mc "Dov'è Monika?"
     stop music fadeout 2.0
-    kt "She left the clubroom awhile ago... I bet she's at the corridor."
+    kt "Se n'è andata da un po'... Scommetto che è nel corridoio."
     mc "..."
-    mc "Okay I'm gonna go see if she's there."
-    mc "Keep everyone busy in the meantime."
-    kt 4e "Y-{w=0.5}yeah, [player]! I'll do that."
-    mc "Then I'll be right back."
+    mc "Okay vado a vedere se è lì."
+    mc "Tieni tutti occupati nel mentre."
+    kt 4e "C-{w=0.5}certo, [player]! Sarà datto."
+    mc "Bene, allora torno subito."
     scene black
     with wipeleft
     scene bg corridor
     with wipeleft
-    "As soon as I get out of the classroom, I can see Monika is just staring out the window."
-    "I quietly get close to her and start speaking."
+    "Come esco dalla classe, vedo Monika che sta fissando fuori dalla finestra."
+    "Mi avvicino in silenzio a lei e inizio a parlare."
     mc "Monika?"
     show monika 1g at t11 zorder 1
     m "[player]?"
     $ audio.t9 = "<loop 3.172>bgm/9.ogg"
-    mc "Is everything okay?"
+    mc "Va tutto bene?"
     m 1o "..."
     m 2p "No..."
     play music t9 fadein 2.0
-    mc "Why? Did something happen?"
-    m 2p "It would have been better if I wasn't here... They really don't want to talk to me."
-    m "It was a mistake bringing me back... Bringing everyone back..."
-    mc "Don't say that again! It wasn't a mistake!"
-    mc "Do you recall what I told you?"
+    mc "Perchè? E' successo qualcosa?"
+    m 2p "Sarebbe stato meglio se non ci fossi venuta qui... Non vogliono davvero parlarmi."
+    m "E' stato un errore riportarmi indietro... Riportare tutti indietro..."
+    mc "Non dirlo mai più! Non è stato un errore!"
+    mc "Ti ricordi cosa ti ho detto?"
     m 1o "Hm?"
-    mc "\"If you want peace; get ready for the war\" basically. You aren't going to dump everything we've done so far, are you?"
-    mc "This is not the right line of thinking Monika. Don't dump all of Kotonoha's efforts... Giving up isn't a choice."
-    m "Yeah..."
-    mc "So, don't do this. It's time to stop already. Don't make Kotonoha feel bad by just giving up."
-    m 2n "But... Why are you so concerned about Kotonoha?"
-    mc "Because I've been nothing but an idiot towards her. I'm just making her cry unintentionally... I'm hurting her."
-    mc "Everyone is my concern, I have to protect everyone. I have to try harder for Kotonoha as well."
-    m "But she's not one of us..."
-    mc "No, as long as she is in the club and continues to be a friend of mine, she'll be one of us."
+    mc "\"Se vuoi la pace; preparati per la guerra\" in pratica. Non butterai tutto quello che abbiamo fatto fino a adesso, vero?"
+    mc "Questo non è il modo giusto di pensare Monika. Non buttare via tutti i tentativi di Kotonoha... Arrendersi non è una scelta."
+    m "Già..."
+    mc "Quindi, non farlo. E' ora di finirla. Non far sentir male Kotonoha perchè vuoi arrenderti."                            #Kotonoha feel bad by just giving up."
+    m 2n "Ma... Perchè sei così preoccupato per Kotonoha?"
+    mc "Perchè non sono stato altro che un'idiota nei suoi confronti. L'ho fatta piangere senza volere... L'ho ferita."
+    mc "Mi preoccupo di tutti, devo proteggere tutti. Devo impegnarmi di più anche per Kotonoha."
+    m "Ma lei non è una di noi..."
+    mc "No, finché è nel club e continua ad essere una mia amica, sarà una di noi."
     if persistent.kt_choice1 == 1:
-      mc "Didn't you see how she was writhing in pain when we were talking?"
-      m 3n "Well... She said it was just...ummm well... lady problems. It's something common when you're a girl, [player]."
-      mc "That wasn't lady problems at all! There's something else Kotonoha is going through."
+      mc "Non hai visto com'era torta dal dolore quando stavamo parlando?"
+      m 3n "Beh... Ha detto che era solo...ummm beh... problemi da donne. E' abbastanza comune quando sei una ragazza, [player]."
+      mc "Non erano per niente problemi da donne! C'è qualcos'altro che Kotonoha sta patendo." #That wasn't lady problems at all! There's something else Kotonoha is going through."
     m "..."
-    m 2p "Yeah... You're right, I guess..."
+    m 2p "Sì... Hai ragione, credo..."
     if persistent.kt_choice1 == 1:
-      m "What do you think she might be going through?"
-      mc "I'm not even sure..."
-    mc "As for the others, you have to stay calm. Everyone deserves to know what happened, don't they?"
-    "Telling her that, she starts to lighten up a little."
-    m 2m "Yeah..."
-    mc "We told you already. Everything's gonna be fine, And if you want your friends back, then we're going to have to deal with this storm."
-    mc "There's not a problem that cannot be fixed over here."
+      m "Cosa pensi che possa star patendo?"
+      mc "Non ne sono sicuro..."
+    mc "Come per gli altri, devi stare calma. Tutti meritano di sapere cos'è successo, no?"
+    "Dicendole quello, inizia a rilassarsi un po'."
+    m 2m "Già..."
+    mc "Te l'abbiamo già detto. Andrà tutto bene, e se vuoi i tuoi amici indietro, allora dobbiamo gestire questa \"tempesta\"."
+    mc "Non c'è problema che non possa essere risolto qui."
     m "..."
     window hide (None)
     window auto
     pause 2.0
-    m 2m "You're right [player]..."
-    m 3l "Ahaha!~ I'm a disaster, am I not?"
-    mc "Ah well, we gotta go inside and get this done already."
+    m 2m "Hai ragione [player]..."
+    m 3l "Ahaha!~ Sono un disastro, nevvero?"
+    mc "Ah beh, dovremmo entrare e sistemare tutto."
     stop music fadeout 2.0
     m 1k "Mhm~"
     "With that, we both get inside the classroom."
