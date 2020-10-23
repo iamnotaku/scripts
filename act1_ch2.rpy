@@ -3002,33 +3002,33 @@ label act1_ch2:
     scene bg club_day
     with wipeleft
     play music t3 fadein 2.0
-    "Kotonoha and Mio arrived and well...Mio still seems to be kinda confused."
-    "I let everyone have a little chit-chat before calling for the girls to leave. Monika is talking with Kotonoha."
-    "Meanwhile Sayori, Mio and Yuri are on the other side of the classroom having a conversation. Natsuki is... Well, doing nothing."
-    "Alright, time to call it a day [player]. I'll call for everyone."
-    mc "Hey girls! It's time to leave. What if we all bring poems for tomorrow? So we all can start building confidence in each other again."
+    "Kotonoha e Mio sono arrivate e beh... Mio sembra ancora essere un po' confusa."
+    "Ho lasciato tutti chiacchierare prima di chiamare le ragazze per andarcene. Monika sta parlando con Kotonoha."
+    "Nel mentre Sayori, Mio e Yuri sono dall'altra parte della classe che stanno conversando. Natsuki... sta... Beh, non sta facendo niente."
+    "Bene, per oggi è finita [player]. Ora chiamerò tutti."
+    mc "Hey ragazze! E' ora di andare. E se portassimo tutti delle poesie per domani? Così possiamo instaurare della confidenza tra di noi ancora."
     show sayori 1l at t11 zorder 1
-    s "I have no problem with that."
+    s "Non ho problemi con questo."
     show sayori 1l at t21 zorder 1
     show yuri 3l at t22 zorder 2
-    y "I-{w=0.5}I guess that could work..."
+    y "P-{w=0.5}Penso possa funzionare..."
     show sayori 1l at t31 zorder 1
     show yuri 1l at t32 zorder 2
     show natsuki 2b at t33 zorder 3
-    n "Whatever."
+    n "Comunque."
     show sayori 1l at t41 zorder 1
     show yuri 1l at t42 zorder 2
     show natsuki 2b at t43 zorder 3
     show kotonoha 5s at t44 zorder 4
-    kt "W-{w=0.5}what?! I've never wrote any poetry ever in my life!"
+    kt "C-{w=0.5}cosa?! Non ho mai scritto nessuna poesia in vita mia!"
     show sayori 1l at t51 zorder 1
     show yuri 1l at t52 zorder 2
     show natsuki 2b at t53 zorder 3
     show kotonoha 5s at t54 zorder 4
     show mio 5b at t55 zorder 5
-    mi "That's a good idea."
-    mc "Alright! So, everyone bring a poem of their own for tomorrow's meeting. So we can all have a chance to rebuild the club."
-    $ s_name = "Everyone"
+    mi "E' un'ottima idea."
+    mc "Bene! Quindi, tutti porteremo posie fatte da noi per l'incontro di domani. Così avremo tutti una possibilità per ricostruire il club."
+    $ s_name = "Tutti"
     s "Okay..."
     $ s_name = "Sayori"
     show kotonoha at rhide
@@ -3041,66 +3041,66 @@ label act1_ch2:
     hide yuri
     show sayori at rhide
     hide sayori
-    "Having said that, everyone goes to get their belongings and leaves the clubroom."
+    "Detto questo, tutti si dirigono verso le loro cose e lasciano l'aula."
     show sayori 1c at t11 zorder 1
-    s "[player], you coming?"
-    mc "Actually, I'm gonna stay for a little bit."
+    s "[player], vieni?"
+    mc "In realtà, starò qua un po'."
     s 1d "Ehehe~"
-    s "Okay, see you tomorrow."
+    s "Okay, ci vediamo domani."
     show sayori at thide
     hide sayori
-    "Sayori slowly leaves the clubroom, leaving just the two of us here."
-    "Monika is cleaning up and aligning the desks. {w=0.5}Okay [player], it's time."
-    "I walk towards Monika."
+    "Sayori lascia con calma l'aula, lasciando soli me e Monika."
+    "Monika sta pulendo e riallineando i banchi. {w=0.5}Okay [player], è ora."
+    "Mi dirigo verso Monika."
     mc "Hey, Monika?"
     show monika 1c at t11 zorder 1
-    m "Yes, [player]?"
-    mc "Uh... Well, I was wondering if you..."
-    mc "--if you would want to go somewhere today."
-    m 1d "Huh? Well, I..."
-    mc "{w=0.5}Well, it's okay if you don't want to, we have to do tomorrow's assignments and--"
-    m 2e "I would love to, [player]~"
-    mc "Wha--? {w=0.5}Really?"
-    m 1b "Sure! Why not?"
-    mc "Ok... Well, so, should we get going then?"
-    m 3k "Ahaha!~ I'm gonna change out of my uniform [player], I'll see you at your house instead."
-    mc "Y-{w=0.5}yeah... See you then."
-    m 5f "See you soon!~"
+    m "Sì, [player]?"
+    mc "Uh... Beh, mi stavo chiedendo se..."
+    mc "--vorresti andare da qualche parte oggi."
+    m 1d "Huh? Beh, io..."
+    mc "{w=0.5}Beh, va bene se non vuoi, dobbiamo fare i compiti per domani e--"
+    m 2e "Mi piacerebbe molto, [player]~"
+    mc "Cos--? {w=0.5}Davvero?"
+    m 1b "Certo! Perchè no?"
+    mc "Ok... Beh, allora, andiamo?"
+    m 3k "Ahaha!~ Devo andarmi a cambiare l'uniforme [player], ci vediamo a casa tua invece."
+    mc "C-{w=0.5}certo... A dopo."
+    m 5f "A dopo!~"
     show monika at thide
     hide monika
-    "Ah well... I thought that she was gonna say 'no'."
-    "But well, I'm not considering the fact that she's making me call her \"my girlfriend\" even though I haven't asked her yet."
-    "Alright [player], time to leave and get ready!"
+    "Ah bene... Pensavo che avrebbe detto 'no'."
+    "Beh, non stavo considerando il fatto che mi ha detto di chiamarla \"la mia ragazza\" nonostante non glielo avessi ancora chiesto."
+    "Va bene [player], è ora di andare e prepararsi!"
     scene black
     with wipeleft
     scene bg corridor
     with wipeleft
-    "For now I just want go home and get ready for today's meeting with Monika."
-    "Or... Is this a date?"
-    "Ah well, I just have to stay calm and I'm sure everything will go fine."
+    "Per adesso voglio solo andare a casa e prepararmi per l'uscita di oggi con Monika."
+    "O... è un appuntamento?"
+    "Ah beh, devo solo stare calmo e sono sicuro che tutto andrà bene."
     stop music fadeout 2.0
     scene black
     with dissolve_scene_full
     # show text()
-    show text("{size=100}{color=#6debab}{b}Moments ago{/b}{/size}{/color}\n{size=60}at Kotonoha's POV.{/size}"):
+    show text("{size=100}{color=#6debab}{b}Poco prima{/b}{/size}{/color}\n{size=60}dal punto di vista di Kotonoha.{/size}"):
       truecenter
     with Dissolve(1.0)
     pause 2.0
     scene bg corridor
     with dissolve_scene_full
-    "[player] did tell me to take Mio somewhere since they all are starting to talk about what happened before. Mio shouldn't know that."
+    "[player] mi ha detto di portare Mio da qualche altra parte da quando hanno iniziato a parlare di cos'è successo prima. Mio non dovrebbe saperlo."
     play music t6 fadein 2.0
-    "Since I had that argument with Natsuki when [player] told her that it was me who brought Monika back, she doesn't want me to be close to her."
-    "And well, Mio was looking at me kinda weird, I decided to ask her. But... I kinda know her actually."
+    "Da quando ho litigato con Natsuki quando [player] le ha detto che ero stata io a portare Monika indietro, non vuole più che le stia vicino."
+    "E beh, Mio mi stava guardando in modo un po' strano, così ho deciso di chiederglielo. Ma... La conosco un po' in realtà."
     $ currentpos = get_pos()
     $ audio.t6 = "<from " + str(currentpos) + " loop 10.893>bgm/6.ogg"
     show mio 1b at t11 zorder 1
-    mi "Um... Excuse me?"
-    "Mio turns to face me."
-    "I make contact with Mio's eyes and reply back."
-    kt "Hm? What is it?"
-    mi 2i "What's happening in there?"
-    mi 2k "I-{w=0.5}it's because of me, isn't it?"
+    mi "Um... Scusa?"
+    "Mio si volta a guardarmi."
+    "Incrocio i miei occhi con quelli di Mio e rispondo."
+    kt "Hm? Che c'è?"
+    mi 2i "Che è successo lì dentro?"
+    mi 2k "E'-{w=0.5}è per me, vero?"
     kt "Well, not really. I don't really know what they are up to..."
     "Trying to pretend that I know nothing about what happened is what I reply to Mio, who is evidently kinda concerned."
     "It seems like she bought the lie, so she just nods and speaks up again."
