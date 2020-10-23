@@ -3015,7 +3015,7 @@ label act1_ch2:
     show sayori 1l at t31 zorder 1
     show yuri 1l at t32 zorder 2
     show natsuki 2b at t33 zorder 3
-    n "Comunque."
+    n "Vabbè."
     show sayori 1l at t41 zorder 1
     show yuri 1l at t42 zorder 2
     show natsuki 2b at t43 zorder 3
