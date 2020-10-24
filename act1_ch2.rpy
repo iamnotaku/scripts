@@ -3101,31 +3101,31 @@ label act1_ch2:
     kt "Hm? Che c'è?"
     mi 2i "Che è successo lì dentro?"
     mi 2k "E'-{w=0.5}è per me, vero?"
-    kt "Well, not really. I don't really know what they are up to..."
-    "Trying to pretend that I know nothing about what happened is what I reply to Mio, who is evidently kinda concerned."
-    "It seems like she bought the lie, so she just nods and speaks up again."
-    mi 4l "Oh... I see. So, what are we going to do in the meantime?"
-    kt "Hmm... I don't know. Do you have any ideas?"
-    mi 5e "What if we go to the backyard? There's nobody here after all~"
-    kt "Sounds good, let's go then."
-    "Mio takes the lead and we go to the backyard."
+    kt "Beh, in realtà no. Non credo di sapere cosa stia succedendo..."
+    "Cercare di far finta di non saper niente di quel che è successo è come ho risposto a Mio, che è evidentemente preoccupata."
+    "Sembra che abia abboccato, quindi lei annuisce e ricomincia a parlare."
+    mi 4l "Oh... Capisco. Quindi, cosa facciamo nel frattempo?"
+    kt "Hmm... Non so. Qualche idea?"
+    mi 5e "Se andassimo nel cortile? Non c'è nessuno qui dopotutto~"
+    kt "Buona idea, andiamo allora."
+    "Mio prende il comando e ci avviamo cortile."
     scene black
     with wipeleft
     scene bg yard 
     with wipeleft
     show mio 6x at t11 zorder 1
-    mi "Aaahh! Nothing like breathing fresh air after a rough class day."
+    mi "Aaahh! Niente di meglio di respirare aria fresca dopo una dura giornata di scuola."
     kt "Mhm~"
-    "Ahhh... I really missed this peaceful environment. I used to come here every morning."
-    "Mio points towards a bench as we were walking around, we then both have a sit."
+    "Ahhh... Mi mancava questo ambiente pacifico. Ero solita venire qui tutte le mattine."
+    "Mio indica verso una panchina mentre stavamo camminando qua intorno, allora entrambe ci sediamo."
     show mio at thide
     hide mio
-    "Once we sit down, the conversation we had a little while ago starts to fade into an unsettling silence."
-    "I didn't expect anything else actually since... Well, I never managed to have a conversation with her since we were at the Music Club."
-    "She's kinda condescending, the kind of people I really hate the most."
-    "We weren't even close to having a conversation now that I think about it, mainly because when she tried to do so I just tried to avoid her."
-    "I can't do that right now because supposedly she doesn't know who I am so it would look kinda odd."
-    "I mean, she told me where to find my uniform despite the fact I know where it is located. Even so, I think that I should thank her for that."
+    "Una volta seduti, la conversazione che abbiamo avuto un attimo fa si è trasformata in un preouccupante silenzio."
+    "Non mi aspettavo nient'altro da... Beh, non ho mai tenuto una conversazione con lei da quando eravamo al club di musica."
+    "E' un po' altezzosa, il tipo di persona che odio di più."
+    "Non eravamo neanche vicine dall'avere una conversazione adesso che ci penso, semplicemente perchè quando ha provato a farlo ho solo provato ad evitarla."
+    "Non posso farlo ora perchè presumibilmente lei non sa neanche chi io sia quindi sarebbe sbagliato."
+    "Nel senso, mi ha detto dove poter trovare la mia uniforme nonostante il fatto che io sappia dove siano. Nonostante questo, credo di doverla ringraziare per questo."
     kt "Hey, Mio..."
     show mio 1c at t11 zorder 1
     mi "Hm?"
