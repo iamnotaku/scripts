@@ -3129,74 +3129,74 @@ label act1_ch2:
     kt "Hey, Mio..."
     show mio 1c at t11 zorder 1
     mi "Hm?"
-    "Mio turns to see me."
-    kt "Uhm... Well, I just wanted to thank you for telling me where I can find my uniform. I was feeling kinda weird walking around with my dress."
+    "Mio si volta a guardarmi."
+    kt "Uhm... Beh, volevo solo ringraziarti per avermi detto dove potevo trovare la mia uniforme. Mi sentivo un po' strana a girare per la scuola coi miei vestiti."
     mi 5x "Uhuhu~"
-    mi 5e "You're welcome Kotonoha!"
+    mi 5e "Di niente Kotonoha!"
     $ currentpos = get_pos()
     $ audio.t6 = "<from " + str(currentpos) + " loop 10.893>bgm/6.ogg"
-    mi 2f "It's just that... Well, you sort of remind me of someone. I can't figure it out though..."
+    mi 2f "E' solo che... Beh, mi ricordi qualcuno. Non riesco a ricordare però..."
     stop music fadeout 2.0
     kt "Gh---!"
     "..."
-    "What did she just say?!"
-    mi 3i "Kotonoha? Did I say something wrong?"
-    kt "O-oh! No, I'm currently struggling with my period and--"
+    "Che cos'ha detto?!"
+    mi 3i "Kotonoha? Ho detto qualcosa di sbagliato?"
+    kt "O-oh! No, sono un po' in difficoltà col mio periodo e--"
     mi 1a "Uhuhu~"
-    extend 8f "Okay okay, I got you."
+    extend 8f "Okay okay, ho capito."
     $ renpy.music.play(audio.t6, fadein=2.0, tight=True)
     $ audio.t6 = "<loop 10.893>bgm/6.ogg"
-    "With that, Mio sits straight up while swinging her legs up and down like a little girl."
-    "What did she just say?! Does she know something she's not telling me about?"
+    "Con quello, Mio si siede dritta mentre dondola le sue gambe su e giù come una bambina."
+    "Che cos'aveva detto?! Sa qualcosa che non mi sta dicendo?"
     show mio at thide
     hide mio
-    "I don't understand... Perhaps [persistent.playername_b] didn't delete everyone's memories?"
-    "I doubt it... They were as careful as they could in regards to that... I'm telling that person anyway!"
-    "Once the night falls I'm gonna ask that person. I wouldn't want something else to happen. It's Mio after all. She used to be in the Music Club."
-    "As usual while lost in my thoughts, Mio speaks to me."
+    "Non capisco... Forse [persstent.playername_b] non ha cancellato le memorie di tutti?"
+    "Ne dubito... Sono stati il più attenti possibile in merito a questo... Sto dicendo a quella persona comunque!"
+    "Appena scenderà la notte chiederò a quella persona. Non vorrei che succedesse qualcos'altro. E' Mio dopotutto. Era nel Club di Musica."
+    "Come al solito mentre sono persa nei miei pensieri, Mio mi parla."
     show mio 2a at t11 zorder 1
     mi "Hey, Kotonoha."
-    kt "Yeah?"
-    mi 1e "I really love your braid! Can I get a closer look at it?"
-    kt "Well...Sure."
-    "Mio gets slightly closer to me and starts touching my braid."
+    kt "Sì?"
+    mi 1e "Adoro la tua treccia! Posso vederla più da vicino?"
+    kt "Beh...Certo."
+    "Mio viene lentamente verso di me e inizia a toccare la mia treccia."
     show mio 7f at face zorder 1
-    mi "Woah, it's so cute! It fits you very nicely~"
-    kt "{w=0.5}Well, thank you so much! It is a real pain to make it like that."
-    mi 6e "I bet."
+    mi "Woah, è così carina! Ti sta proprio a pennello~"
+    kt "{w=0.5}Beh, ti ringrazio molto! E' una palla farla in questo modo."
+    mi 6e "Ci scommetto."
     window hide(None)
     window auto
     pause 2.0
     show mio 6e at t11 zorder 1
     with None
-    mi "Aaaand... Do you have a boyfriend?"
+    mi "Eeeeee... Hai un ragazzo?"
     kt "Gh--!"
-    "What?! What is she even talking about?! God... I feel my face blushing so much right now!"
-    "Trying to avoid eye contact with her, I look away."
-    kt "W-{w=0.5}well... Not really."
-    mi 2g "Oooh, I see. It's a shame, you're such a beautiful girl~"
+    "Cosa?! Di cosa sta parlando! Dio... Sento la mia faccia arrossire proprio in questo momento!"
+    "Cercando di evitare il contatto visivo con lei, porto lo sguardo altrove."
+    kt "B-{w=0.5}beh... N-no."
+    mi 2g "Oooh, capisco. E' un peccato, sei una così bella ragazza~"
     "..."
-    "Someone save me! My face is as red as a tomato and I'm unable to speak without stuttering."
-    "Mio then starts speaking again."
-    mi 1c "And... Is there someone you have a crush on?"
-    "She isn't gonna stop, is she? I'm feeling kinda harassed and flustered..."
-    "I mean, I can't say anything to her since we're nothing. I used to talk about my crush on [player] with Naomi, but it's not the same case... After all, she was my friend."
-    "What if I just tell her? Will there be consequences?"
+    "Qualcuno mi salvi! La ia faccia è rossa come un pomodoro e non sono in grado di parlare senza balbettare."
+    "Mio poi ricomincia a parlare."
+    mi 1c "E... C'è qualcuno che ti piace?"
+    "Non la smetterà, vero? Mi sento un po' stanca e agitata..."
+    "Nel senso, non posso dirle niente se non siamo neanche amiche. Ero solita parlare della mia cotta per [player] con Naomi, ma nonè la stessa cosa... Dopotutto, lei era mia amica."
+    "E se glielo dicessi e basta? Quali sarebbero le conseguenze?"
     window hide(None)
     window auto
     pause 1.0
-    "Okay, I'm gonna tell her."
-    kt "Well, {w=0.5}actually I--"
+    "Okay, glielo dirò."
+    kt "Beh, {w=0.5}in realtà io--"
     play sound cellphone
     window hide(None)
     window auto
     pause 2.0
-    kt "Wha--?"
-    kt "Um, [player] is calling me, just a moment."
-    "Thanks [player], you just saved me!"
+    kt "Cos--?"
+    kt "Um, [player] mi sta chiamando, solo un attimo."
+    "Grazie [player], mi hai salvato!"
     show mio at thide
     hide mio
-    "I reach for my phone and answer it."
+    "Prendo il mio telefono e rispondo."
     kt "[player]?"
     mc "{i}Yo Kotonoha, everything's done over here. Time to come back.{/i}"
     kt "How did it go?"
