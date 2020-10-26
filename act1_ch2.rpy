@@ -3518,75 +3518,75 @@ label act1_ch2:
     show mio at thide
     hide mio
     show monika 1bo at t11 zorder 1
-    "Geez... What just happened?"
-    "Monika is still staring at nothing while tracing the rim of her cup with her fingers."
+    "Cristo... Cos'è appena successo?"
+    "Monika sta ancora osservando il vuoto mentre sta ripassando più volte il bordo della sua tazza con le sue dita."
     mc "Hey!"
     m 1bp "Hm?"
-    mc "What happened? Are you alright?"
-    m "...Oh, yeah I'm okay. Shall we drink our coffee? I want to go outside and get some fresh air."
-    mc "Uh... Alright."
-    "Damn! Mio just ruined this special moment Monika and I were having."
-    "How did Mio come in without us noticing?  Did something happen between Monika and Mio?"
-    "I really don't understand anything... But I gotta get rid of her before she ruins my chance with Monika!"
-    "I don't know if I should talk about this with Kotonoha though... But for now I'll keep it to myself. Unless everything starts to get difficult."
-    "Well, for now I'm gonna drink this cup of coffee."
+    mc "Cos'è successo? Stai bene?"
+    m "...Oh, sì sto bene. Non dovremmo bere i nostri caffè? Voglio andare fuori a prendere un po' d'aria fresca."
+    mc "Uh... Va bene."
+    "Porco Dio! Mio è riuscita a rovinare questo momento speciale tra me e Monika."
+    "Come ha fatto ad entrare senza che la notassimo? E' successo qualcosa tra Monika e Mio?"
+    "Non ho capito davvero niente... Ma devo liberarmene prima che rovini la mia possibilità con Monika!"
+    "Non so se dovrei parlarne con Kotonoha però... Per ora lo terrò per me. Finché non diventerà tutto più difficile."
+    "Beh, per ora berrò questa tazza di caffè."
     scene black with wipeleft
     scene bg cafe_inside with wipeleft
-    "A good 25 minutes have passed since Mio left the cafe. On the other hand, Monika is barely saying anything."
-    "Could it be because of that \"As long as it's not money, I'm willing to do whatever you want\" stuff? It's just logic actually."
-    "I think that I'm gonna clear that up once we're at the park."
+    "Buoni 25 minuti sono passati da quando Mio a lasciato il bar. Dall'altra parte, Monika non sta quasi dicendo niente."
+    "Può essere per quella roba del \"Finché non si parla di soldi, sono favorevole a fare qualsiasi cosa tu voglia\"? E' semplicemente logica in realtà."
+    "Penso che chiarirò tutto una volta al parco."
     show monika 1bd at t11 zorder 1
-    m "Are you ready to leave [player]?"
-    mc "Oh, sure. I've finished my coffee already. Do you still wanna go to the park?"
-    m 2bd "Yeah, I need to get some fresh air."
-    mc "Alright, let's get going then."
-    "Monika takes her purse from the table, while I stand up myself."
+    m "Sei pronto per andare [player]?"
+    mc "Oh, certo. Ho già finito il mio caffè. Vuoi andare ancora al parco?"
+    m 2bd "Sì, ho bisogno di prendere un po' di aria fresca."
+    mc "Bene, andiamo allora."
+    "Monika prende il suo borsello dal tavolo, mentre mi alzo."
     scene black with wipeleft
     stop music fadeout 2.0
     scene bg cafe2 with wipeleft
-    "Once we step out I can't help noticing Monika's expression becomes more serious. No doubt it's because of what I said to Mio..."
-    "But can I do something if she's not willing to tell me what happened before? Because I don't think so..."
-    "That being said, I'm taking on yet another problem that needs to be done. I have to think of something."
-    "Something good!"
-    mc "Well, where's the park?"
+    "Una volta fuori non posso fare a meno di notare l'espressione di Monika diventare più seria. Non c'è dubbio che sia poer quella cosa che ho detto a Mio..."
+    "Ma posso farci qualcosa se lei non è disposta a dirmi cos'è successo prima? Perchè non credo..."
+    "Detto questo, c'è un altro problema di cui devo occuparmi. Devo pensare a qualcosa."
+    "Qualcosa di buono!"
+    mc "Beh, dov'è il parco?"
     show monika 3bd at t11 zorder 1:
       xzoom -1
-    m "Over there."
-    "Monika points with her finger where the park is located at."
-    mc "Well, I'll follow you."
+    m "Di qua."
+    "Monika punta il dito dove si trova il parco."
+    mc "Beh, ti seguo."
     scene black with wipeleft
     scene bg city_b with wipeleft
     play music city fadein 2.0
-    "Ahhh... It's almost nighttime already and the cold wind starts to come..."
-    "Since the park is kind of close, we just have to walk a few blocks."
-    "Monika is walking in front of me saying nothing. For now I'm not gonna push her. I'll leave her be and wait for her to tell me what's happening."
-    "Yeah, that's the best choice for now."
-    "I don't know if I should try chatting with her... This is becoming awkward."
+    "Ahhh... E' già quasi notte e il vento gelido inizia ad arrivare..."
+    "Da quel che capisco il parco è abbastanza vicino, dobbiamo camminare solo per pochi isolati."
+    "Monika sta camminando dvanti a me senza dire niente. Per adesso non la forzerò. La lascerò stare e aspetterò che mi dica cos'è successo."
+    "Sì, è la scelta migliore per ora."
+    "Non so se dovrei pprovare a parlare con lei... Inizia a diventare strano."
     mc "Hey, Monika?"
     show monika 1bd at t11 zorder 1
     m "Hm?"
-    mc "Uhm... How are you feeling right now?"
+    mc "Uhm... Come ti senti ora?"
     m 1bf "..."
     show monika at thide
     hide monika
-    "Saying nothing, Monika just turns back. God... Something definitely happened with Mio, but I can't do anything if she refuses to tell me."
-    "I just want Monika to tell me..."
-    extend "For now it would be best if I remain silent."
+    "Senza dire niente, Monika si volta. Dio... E0 successo di sicuro qualcosa con Mio, ma non posso farci niente se si rifiuta di dirmi cosa."
+    "Voglio solo che Monika mi dica..."
+    extend "Per ora sarebbe meglio se rimanga in silenzio"
     scene black with wipeleft
     scene bg park_b with wipeleft
-    "The sun barely illuminating the street makes it look very beautiful. It gives the environment a certain air of peacefulness."
-    "Monika stops walking while doing a half turn to face me, then she speaks up."
+    "Il sole illumina a malapena le strade facendole sembrare molto belle. Da all'ambiente una certa aria di pace."
+    "Monika fa un mezzo giro mentre si gira per guardarmi, poi inizia a parlare."
     show monika 2bg at t11 zorder 1
     m "Hey, [player]..."
-    mc "Yeah?"
-    m 2bn "Well... It's about that Mio stuff that happened at the cafe..."
+    mc "Sì?"
+    m 2bn "Allora... Riguardo a quello che è successo al bar con Mio..."
     $ currentpos = get_pos()
     $ audio.city = "<from " + str(currentpos) + " loop 0>eheart-music/city.ogg"
-    mc "Oh... Well, What happened then?"
+    mc "Oh... Beh, chè è successo?"
     stop music fadeout 2.0
-    m "Well... "
+    m "Beh... "
     extend 1bp "Ehm..."
-    extend 2bp "I kind of think that Mio knows what this world is."
+    extend 2bp "Penso che Mio sappia cos'è in realtà questo mondo."
     "..."
     mc "What?"
     m 1bd "Look... When I walked into the clubroom, Mio greeted me in a very weird manner, Almost like she knew what I was doing."
